@@ -4,6 +4,7 @@ import { ConsumeMessage, MessageProperties } from 'amqplib'
 export interface BrokerConfig extends Node {
   host: string
   port: number
+  frameMax: number
   vhost: string
   tls: boolean
   credsFromSettings: boolean

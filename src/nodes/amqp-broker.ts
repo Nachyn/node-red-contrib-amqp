@@ -9,6 +9,7 @@ module.exports = function (RED: NodeRedApp): void {
     this.name = n.name
     this.host = n.host
     this.port = n.port
+    this.frameMax = n.frameMax
     this.tls = n.tls
     this.vhost = n.vhost
     this.credsFromSettings = n.credsFromSettings
