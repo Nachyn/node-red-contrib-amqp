@@ -1,5 +1,5 @@
 {
-  "name": "@meowwolf/node-red-contrib-amqp",
+  "name": "@nachyn/node-red-contrib-amqp",
   "license": "ISC",
   "version": "2.4.2",
   "description": "Amqp nodes for node-red",
@@ -34,12 +34,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:MeowWolf/node-red-contrib-mw-amqp.git"
+    "url": "git@github.com:Nachyn/node-red-contrib-amqp.git"
   },
   "contributors": [
     "Amo DelBello <adelbello@meowwolf.com>"
   ],
-  "bugs": "https://github.com/MeowWolf/node-red-contrib-mw-amqp/issues",
+  "bugs": "https://github.com/Nachyn/node-red-contrib-amqp",
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^0.1.3",
     "@types/amqplib": "^0.8.1",
