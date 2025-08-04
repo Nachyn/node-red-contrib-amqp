@@ -1,9 +1,12 @@
-# Fork `@meowwolf/node-red-contrib-amqp`
-MeowWolf Github: `https://github.com/MeowWolf/node-red-contrib-amqp`
+### Fork `@meowwolf/node-red-contrib-amqp`
 
 # @nachyn/node-red-contrib-amqp
 
 AMQP nodes for node-red
+
+Changes:
+- Library `amqplib` updated to version `^0.10.8`
+- Added `frame_max` props for RabbitMQ 4.1
 
 ## Installation
 

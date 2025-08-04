@@ -68,7 +68,8 @@ export default class Amqp {
     this.broker = this.RED.nodes.getNode(broker)
 
     const brokerUrl = this.getBrokerUrl(this.broker)
-    const { frameMax } = broker as unknown as BrokerConfig
+    const { frameMax } = this.broker as unknown as BrokerConfig
+    console.log(`frameMax: ${frameMax}`)
     this.connection = await connect(brokerUrl, { heartbeat: 2, frameMax })
 
     /* istanbul ignore next */
